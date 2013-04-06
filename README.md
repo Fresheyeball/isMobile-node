@@ -17,7 +17,7 @@ This small script allows you to control what gets sent to mobile and desktop in 
     	// continuing your setup
     });
 
-Now you can use if blocks in your templates (jade shown here) using the two key variable `isMobile and `isDesktop` :
+Now you can use if blocks in your templates (jade shown here) using the two key variable `isMobile` and `isDesktop` :
 
     html
         head
