@@ -3,6 +3,21 @@ isMobile-node
 
 Stupid simple mobile detection script for node.js and express
 
+Installation
+=============
+
+This package is registered with npm. Simply user
+
+    npm install ismobile
+
+or include it in your package.json
+
+    "dependencies": {
+        "express": "3.0.x",
+        "jade": "*",
+        "ismobile": "*",
+    },
+
 Usage
 =============
 
