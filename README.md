@@ -6,7 +6,7 @@ Stupid simple mobile detection script for node.js and express
 Installation
 =============
 
-This package is registered with npm. Simply user
+This package is registered with npm. Simply use
 
     npm install ismobile
 
