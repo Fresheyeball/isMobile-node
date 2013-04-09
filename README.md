@@ -24,12 +24,9 @@ Usage
 This small script allows you to control what gets sent to mobile and desktop in the templating layer. Its middleware and needs to be included in your app.configuration like so
 
     app.configure(function(){
-    	// your setup
-
-    	require('isMobile')(app);  // this must be BEFORE
-    	app.use(app.router);       // app.router!
-
-    	// continuing your setup
+    	// your setup...
+    	app.use(require('isMobile'));
+    	// ...continuing your setup
     });
 
 Now you can use if blocks in your templates (jade shown here) using the two key variable `isMobile` and `isDesktop` :
