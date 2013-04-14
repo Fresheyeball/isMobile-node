@@ -1,7 +1,7 @@
 {
 	"name" : "ismobile",
 	"description" : "Stupid simple mobile detection script for node.js and express",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"author" : "Isaac Shapira",
 	"repository" : {
 		"type" : "git",
